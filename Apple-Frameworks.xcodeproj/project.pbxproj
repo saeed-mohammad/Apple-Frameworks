@@ -15,6 +15,7 @@
 		80C1F63B2C10B8EC00B69E9F /* FrameWorkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C1F63A2C10B8EB00B69E9F /* FrameWorkDetailView.swift */; };
 		80C1F63D2C10C80800B69E9F /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C1F63C2C10C80700B69E9F /* AFButton.swift */; };
 		80C1F63F2C120AB100B69E9F /* FrameWorkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C1F63E2C120AB000B69E9F /* FrameWorkDetailViewModel.swift */; };
+		80C1F6412C1601B800B69E9F /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C1F6402C1601B700B69E9F /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		80C1F63A2C10B8EB00B69E9F /* FrameWorkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWorkDetailView.swift; sourceTree = "<group>"; };
 		80C1F63C2C10C80700B69E9F /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		80C1F63E2C120AB000B69E9F /* FrameWorkDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWorkDetailViewModel.swift; sourceTree = "<group>"; };
+		80C1F6402C1601B700B69E9F /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				80C1F63C2C10C80700B69E9F /* AFButton.swift */,
 				80C1F6282C0E12FD00B69E9F /* Apple_FrameworksApp.swift */,
 				80C1F6382C0E178700B69E9F /* FrameworkGridView.swift */,
+				80C1F6402C1601B700B69E9F /* SafariView.swift */,
 				80C1F6362C0E162500B69E9F /* Framework.swift */,
 				80C1F62C2C0E130500B69E9F /* Assets.xcassets */,
 				80C1F62E2C0E130500B69E9F /* Preview Content */,
@@ -155,6 +158,7 @@
 				80C1F6292C0E12FD00B69E9F /* Apple_FrameworksApp.swift in Sources */,
 				80C1F63D2C10C80800B69E9F /* AFButton.swift in Sources */,
 				80C1F6372C0E162500B69E9F /* Framework.swift in Sources */,
+				80C1F6412C1601B800B69E9F /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

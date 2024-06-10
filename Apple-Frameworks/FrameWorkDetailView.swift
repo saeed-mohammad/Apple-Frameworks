@@ -11,6 +11,8 @@ struct FrameWorkDetailView: View {
     
     var framework : Framework
     @Binding var isShowingFrameWorkDetail : Bool
+    @State private var isShowingWebView = false
+    @State private var url: URL?
     
     var body: some View {
         VStack{
@@ -38,10 +40,21 @@ struct FrameWorkDetailView: View {
             Spacer()
             
             Button {
-                
+                if let frameworkURL = URL(string: framework.urlString) {
+                    self.url = frameworkURL
+                    self.isShowingWebView = true
+                }
             } label: {
                 AFButton(title: "Learn More")
             }
+            .fullScreenCover(isPresented: $isShowingWebView) {
+                if let url = url {
+                    SafariView(url: url)
+                }
+            }
+//            Link(destination: URL(string: framework.urlString)!) {
+//                AFButton(title: "Learn More")
+//            }
             Spacer()
             
             
